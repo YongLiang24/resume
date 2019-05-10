@@ -31,20 +31,19 @@ class App extends React.Component{
                 {/*project 1  */}
                 <Card.Description textAlign='left' className='project_text'><Popup content="Visit Metro Pizza Github Repository" trigger={<strong><a href="https://github.com/YongLiang24/frontend_customers_metro_pizza" target="_blank" rel="noopener noreferrer">Metro Pizza</a></strong>}/> | <Popup trigger={<a href="https://yongliang24.github.io/frontend_customers_metro_pizza/" target="_blank" rel="noopener noreferrer">Demo Link</a>} content="Visit Metro Pizza Website"/></Card.Description>
                   <Card.Description textAlign='left' className="project_detail">Metro Pizza allows customers to place orders online, a restaurant to receive orders and manage menu items</Card.Description>
-                  <Card.Description textAlign='left' className="project_description">+ Implemented mouse drawing using HTML canvas</Card.Description>
-                  <Card.Description textAlign='left' className="project_description">+ Developed a Rails API backend with endpoints for guessing, canvas coordinates
+                  <Card.Description textAlign='left' className="project_description">+ Developed a Rails API with endpoints for menu items, admin user, customer orders </Card.Description>
+                  <Card.Description textAlign='left' className="project_description">+ Implemented administrator UI to create or delete menu items, receive online orders in real time
                   </Card.Description>
-                  <Card.Description textAlign='left' className="project_description">+ Built live update drawing and messages communicate with the guessing site</Card.Description>
-                  <Card.Description textAlign='left' className="project_description">+ Implemented user interface using React and CSS for styling</Card.Description>
-                  <br/>
+                  <Card.Description textAlign='left' className="project_description">+ Implemented customers UI to view menu, add to cart and place orders online</Card.Description>
+                  <Card.Description textAlign='left' className="project_description">+ Built all user interfaces employing React with Semantic UI</Card.Description> <br/>
                   {/*project 2  */}
                   <Card.Description textAlign='left' className='project_text'><Popup trigger={<strong><a href="https://github.com/YongLiang24/pictionary-online" target="_blank" rel="noopener noreferrer">Pictionary Online</a></strong>} content="Visit Pictionary Github Repository" /> |<Popup content="Visit Pictionary Online Website" trigger={<a href="https://yongliang24.github.io/pictionary-online/#/" target="_blank" rel="noopener noreferrer">Demo Link</a>}/></Card.Description>
                     <Card.Description textAlign='left' className="project_detail">Pictionary Online a simple way to play pictionary game online with friends.</Card.Description>
-                    <Card.Description textAlign='left' className="project_description">+ Developed a custom Rails API backend with endpoints for menu items, admin user, customer orders </Card.Description>
-                    <Card.Description textAlign='left' className="project_description">+ Implemented administrator UI to create or delete menu items, receive online orders in real time
+                    <Card.Description textAlign='left' className="project_description">+ Implemented mouse drawing using HTML canvas</Card.Description>
+                    <Card.Description textAlign='left' className="project_description">+ Developed a Rails API with endpoints for guessing, canvas coordinates
                     </Card.Description>
-                    <Card.Description textAlign='left' className="project_description">+ Implemented customers UI to view menu, add to cart and place orders online</Card.Description>
-                    <Card.Description textAlign='left' className="project_description">+ Built all user interfaces employing React with Semantic UI React </Card.Description><br/>
+                    <Card.Description textAlign='left' className="project_description">+ Built live update drawing and messages communicate with the guessing site</Card.Description>
+                    <Card.Description textAlign='left' className="project_description">+ Implemented user interface using React and CSS for styling</Card.Description><br/>
 
                     {/*project 3  */}
                     <Card.Description textAlign='left' className='project_text'><Popup trigger={<strong><a href="https://github.com/YongLiang24/translatr-frontend" target="_blank" rel="noopener noreferrer">Translatr</a></strong>} content="Visit Translatr Github Repository"/> |<Popup trigger={<a href="https://yongliang24.github.io/translatr-frontend/" target="_blank" rel="noopener noreferrer">Demo Link</a>} content="Visit Translatr Website"/></Card.Description>
