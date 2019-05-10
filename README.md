@@ -1,3 +1,7 @@
+## This is a web application that contains my resume.
+
+Visit the site: https://yongliang24.github.io/resume/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
