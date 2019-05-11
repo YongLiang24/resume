@@ -70,7 +70,7 @@ class App extends React.Component{
                         <Card.Description textAlign='left' className="project_detail">Video Game Tester, July 2017 - December 2018</Card.Description>
                         <Card.Description textAlign='left' className="project_description">+ Tested games to Identify glitches and bugs</Card.Description>
                         <Card.Description textAlign='left' className="project_description">+ Documented test procedures, test cases and bug reports</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Collaborated with 8 other team members to complete daily tasks </Card.Description>
+                        <Card.Description textAlign='left' className="project_description">+ Collaborated with other team members to complete daily tasks </Card.Description>
 
                         <Card.Description textAlign='left' className='work_text'>
                           <strong>Uber Technologies</strong>, Bellevue, Seattle
