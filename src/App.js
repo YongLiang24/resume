@@ -22,7 +22,7 @@ class App extends React.Component{
             <Card.Content>
               <Card.Header><Image src={ProfilePic} avatar size='huge' position="bottom center"/><span>Yong Liang</span></Card.Header>
               {/*About section  */}
-              <Card.Description textAlign='center' id="contact_info">510-203-6233 | yongliang24@gmail.com | <Popup content="Visit Yong's Github Page" trigger={<a href="https://github.com/YongLiang24" target="_blank" rel="noopener noreferrer">Github</a>}/> | <Popup content="Visit Yong's Blog Posts" trigger={<a href="https://dev.to/yongliang24" target="_blank" rel="noopener noreferrer">Blogs</a>} /></Card.Description><hr/>
+              <Card.Description textAlign='center' id="contact_info">510-203-6233 | yongliang24@gmail.com | <Popup content="Visit Yong's Github Page" trigger={<a href="https://github.com/YongLiang24" target="_blank" rel="noopener noreferrer">Github</a>}/> | <Popup content="Visit Yong's Blog Posts" trigger={<a href="https://dev.to/yongliang24" target="_blank" rel="noopener noreferrer">Blogs</a>} /> | <Popup trigger={<a href="https://yongliang24.github.io/portfolio/" target="_blank" rel="noopener noreferrer" >Portfolio</a> } content="Visit Yong's Portfolio Site"/> </Card.Description><hr/>
                 <Card.Description textAlign='left' id="slogan">Full stack web developer with a passion for software development and new technologies, with experience in Ruby on Rails, JavaScript, and React.js and a background in computer science, I discovered web development through college courses. I bring strong skills in customer services and team collaborations that support a company’s success.</Card.Description><br/>
 
                 <Card.Content extra>
@@ -42,7 +42,7 @@ class App extends React.Component{
                     <Card.Description textAlign='left' className="project_description">+ Implemented mouse drawing using HTML canvas</Card.Description>
                     <Card.Description textAlign='left' className="project_description">+ Developed a Rails API with endpoints for guessing, canvas coordinates
                     </Card.Description>
-                    <Card.Description textAlign='left' className="project_description">+ Built live update drawing and messages communicate with the guessing site</Card.Description>
+                    <Card.Description textAlign='left' className="project_description">+ Built live update drawing and messages to display drawings and guesses</Card.Description>
                     <Card.Description textAlign='left' className="project_description">+ Implemented user interface using React and CSS for styling</Card.Description>
 
                     {/*project 3  */}
