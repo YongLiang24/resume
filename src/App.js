@@ -23,7 +23,7 @@ class App extends React.Component{
               <Card.Header><Image src={ProfilePic} avatar size='huge' position="bottom center"/><span>Yong Liang</span></Card.Header>
               {/*About section  */}
               <Card.Description textAlign='center' id="contact_info">510-203-6233 | yongliang24@gmail.com | <Popup content="Visit Yong's Github Page" trigger={<a href="https://github.com/YongLiang24" target="_blank" rel="noopener noreferrer">Github</a>}/> | <Popup content="Visit Yong's Blog Posts" trigger={<a href="https://dev.to/yongliang24" target="_blank" rel="noopener noreferrer">Blogs</a>} /> | <Popup trigger={<a href="https://yongliang24.github.io/portfolio/" target="_blank" rel="noopener noreferrer" >Portfolio</a> } content="Visit Yong's Portfolio Site"/> </Card.Description><hr/>
-                <Card.Description textAlign='left' id="slogan">Full stack web developer with a passion for software development and new technologies, with experience in Ruby on Rails, JavaScript, and React.js and a background in computer science, I discovered web development through college courses. I bring strong skills in customer services and team collaborations that support a company’s success.</Card.Description><br/>
+                <Card.Description textAlign='left' id="slogan">Full stack web developer with a passion for software development and new technologies, with experience in Ruby on Rails, JavaScript, and React.js and a background in software development. I discovered web development through college courses. I bring strong skills in problem solving and team collaborations that support a company’s success.</Card.Description><br/>
 
                 <Card.Content extra>
                   <Card.Header id="sub_headers">Technical Projects</Card.Header>
@@ -63,30 +63,30 @@ class App extends React.Component{
                       </Card.Content>
                       {/*work experience  */}
                       <Card.Content extra>
-                        <Card.Header id="sub_headers">Employment History</Card.Header>
+                        <Card.Header id="sub_headers">Experience</Card.Header>
                         <Card.Description textAlign='left' className='work_text'>
                           <strong>HCL America</strong>, Redmond, WA
                         </Card.Description>
                         <Card.Description textAlign='left' className="project_detail">Video Game Tester, July 2017 - December 2018</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Tested games to Identify glitches and bugs</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Documented test procedures, test cases and bug reports</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Collaborated with other team members to complete daily tasks </Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Tested games to Identify glitches and bugs</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Documented test procedures, test cases and bug reports</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Collaborated with other team members to complete daily tasks </Card.Description>
 
                         <Card.Description textAlign='left' className='work_text'>
-                          <strong>Uber Technologies</strong>, Bellevue, Seattle
+                          <strong>Flatiron School - Full-Stack Software Engineering training</strong>, Oct 2018 - May 2019
                         </Card.Description>
-                        <Card.Description textAlign='left' className="project_detail">Driver, May 2016 - June 2017</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Communicated with passengers, provided safe and welcoming rides</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Managed own schedule and accounting</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Maintained high customer standards and ratings </Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># 1000 hours of full-stack web development training.</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Gained proficiency with Javascript, HTML, CSS, React.js, React Redux, Ruby on Rails.</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Understanding Presentation vs Container React Components, client side routing.</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Understanding Ajax requests, REST API, async React, props and state management.</Card.Description>
 
                         <Card.Description textAlign='left' className='work_text'>
-                          <strong>Fu Wah Restaurant</strong>, Lioza, PR
+                          <strong>Lake Washington Institute of Technology - Software Developer Student</strong>, Sep 2016 - June 2018
                         </Card.Description>
-                        <Card.Description textAlign='left' className="project_detail">Chef , May 2011 - December 2015</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Managed daily supply list for ordering</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Collaborated with two other chefs and communicated with cashiers regarding orders</Card.Description>
-                        <Card.Description textAlign='left' className="project_description">+ Managed food service effectively and efficiently in a fast paced environment</Card.Description>
+                        <Card.Description textAlign='left' className="project_detail"># Designed and implemented software applications.</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Understanding software testing principles, software development life cycle.</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Practiced data management concepts and used query languages.</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Demonstrated critical thinking, teamwork, communication, and intercultural appreciation skills </Card.Description>
                       </Card.Content>
 
                       <Card.Content extra>
