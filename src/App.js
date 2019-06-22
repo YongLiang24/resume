@@ -83,7 +83,7 @@ class App extends React.Component{
                         <Card.Description textAlign='left' className='work_text'>
                           <strong>Lake Washington Institute of Technology - Software Developer Student</strong>, Sep 2016 - June 2018
                         </Card.Description>
-                        <Card.Description textAlign='left' className="project_detail"># Designed and implemented software applications.</Card.Description>
+                        <Card.Description textAlign='left' className="project_description"># Designed and implemented software applications.</Card.Description>
                         <Card.Description textAlign='left' className="project_description"># Understanding software testing principles, software development life cycle.</Card.Description>
                         <Card.Description textAlign='left' className="project_description"># Practiced data management concepts and used query languages.</Card.Description>
                         <Card.Description textAlign='left' className="project_description"># Demonstrated critical thinking, teamwork, communication, and intercultural appreciation skills </Card.Description>
@@ -99,7 +99,7 @@ class App extends React.Component{
                         <Card.Description textAlign='left' className='work_text'>
                           <strong>Lake Washington Institute of Technology - Kirkland, WA</strong> - Sep 2016- June 2018
                         </Card.Description>
-                        <Card.Description textAlign='left' className="education_description">+ Associate Degree in Computing and Software Development.</Card.Description>
+                        <Card.Description textAlign='left' className="education_description">+ Associate Degree in Software Development.</Card.Description>
                       </Card.Content>
 
                     </Card>
